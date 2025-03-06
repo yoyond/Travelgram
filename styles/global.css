@@ -24,6 +24,11 @@ body {
     font: var(--text);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
+    
+    transform: scale(0.8); 
+    transform-origin: top left;
+    width: 125%; /* Fiz isso para ajustar a escala do projeto a fim de normalizar a exibiçao a 100%zoom */
+    
 }
 
 a {
