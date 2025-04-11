@@ -42,8 +42,8 @@ a:hover {
 }
 
 .container {
-    padding-inline: 32px;
-    max-width: 1280px;
+    padding-inline: 2rem;
+    max-width: 80rem;
     margin-inline: auto;
 }
 
@@ -51,3 +51,37 @@ a:hover {
     background-color: var(--surface-color);
 }
 
+@media (max-width: 48rem) {
+    #logo img {
+        width: 8rem;
+        height: auto;
+        padding: 1rem;
+    }
+
+    #primary-menu li, ul {
+        max-width: 70%;
+        height: auto;
+    }
+
+    #text h1 {
+        width: 1px;
+    }
+
+    #profile img {
+       max-width: auto;
+       max-height: 7rem;
+    }
+
+    #flex {
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+    }
+
+
+    #flex img {
+        max-width: 13rem;
+        max-height: 13rem;
+
+    }
+}
