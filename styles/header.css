@@ -3,10 +3,13 @@ header {
     font:var(--text-md);
 }
 
-header .container {
+header .container-pf {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 80rem;
+    margin: auto;
+    padding-inline: 2rem;
     
 }
 
@@ -26,13 +29,13 @@ header .container {
     margin-bottom: 0.5rem;
 }
 
-
 #info {
  list-style: none;
  display: flex;
  flex-direction: column;
  gap: 1rem;
  width: 17.5rem;
+ padding-left: 5rem;
 }
 
 #info li {
